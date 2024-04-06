@@ -1,0 +1,24 @@
+# Spatial Grid
+
+Implement gridding of the image and concatenation of features from grid cells to form the image descriptor. 
+
+Experiment with colour and/or texture features
+
+In the latter case, experiment with different levels of angular quantizations.
+
+
+# Functions explanations
+
+## extractSpatialGridColour1 - Spatial grid (Color) - Average Colour feature
+
+     This refers to the mean color values across the RGB channels of the pixels within each grid cell. For each cell, you will get an average for Red, Green, and Blue channels. So for a 4x4 grid, and 3 color channels, you'll have 4x4x3 = 48 features just for the average color.
+
+## extractSpatialGridColour2 - Spatial grid (Color) - Colour histogram
+
+    This function will divide the image into a 4x4 grid and then compute the RGB histogram for each grid cell. After computing the histogram for a cell, it normalizes it and appends it to the final descriptor. The process is repeated for all the grid cells. The resulting descriptor F will have dimensions 1 x (4*4*Q^3), where Q is the quantization level. In this case, with Q=4, it will be 1 x 256.
+
+## extractSpatialGridColour3 - Spatial grid (Color) - Colour moments
+
+    In this function, we're extracting a 4x4 grid from the image, and for each grid cell, we compute the mean, variance, and skewness for each of the RGB channels. This means for each grid cell, we'll get 9 values (3 moments x 3 channels). Since we have a 4x4 grid, the final descriptor F will be of length 4*4*9 = 144.
+
+extractSpatialGridColour4 - Spatial grid (Color) - Concantenating all features

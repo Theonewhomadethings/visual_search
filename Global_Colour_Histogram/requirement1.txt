@@ -1,0 +1,5 @@
+# Requirement 1
+
+Global Colour Histogram
+
+Implement a global colour histogram using a Euclidean distance metric. We also experiment with different levels of RGB quantization.

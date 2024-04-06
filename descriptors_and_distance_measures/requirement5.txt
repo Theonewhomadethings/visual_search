@@ -1,0 +1,8 @@
+# Different descriptors and distance measures
+
+Curently we have used Mahalanobis distance and L2 Norm( Euclidean distance)
+
+Requirement 5: 
+Different descriptors and distance measures 15% Experiment with different choices of distance measure
+e.g. L1 norm and note the effect they have on performance.
+Can you discover other distance measures or descriptors not covered on this module and try these out?

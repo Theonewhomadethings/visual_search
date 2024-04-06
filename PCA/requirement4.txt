@@ -1,0 +1,6 @@
+# Use of PCA
+
+Use of PCA to project your image descriptors into a lower dimensional space 
+and explore the use of Mahalanobis distance as an alternative distance metric.
+
+Does performance improve.
