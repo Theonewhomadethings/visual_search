@@ -14,5 +14,5 @@ We explored:
 - Object classification using Support Vector Machines (SVM)
 
 Example Output:
-![alt text](https://github.com/Theonewhomadethings/visual_search/Outputs/Req3/SpatialGridColour3/crop.png?raw=true)
+![alt text](https://github.com/Theonewhomadethings/visual_search/blob/main/Outputs/Req3/SpatialGridColour3/crop.png?raw=true)
 
