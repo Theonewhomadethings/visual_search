@@ -12,3 +12,5 @@ We explored:
 - Explored different Descriptors and Distance measurements
 - Bag of Visual Words retrieval
 - Object classification using Support Vector Machines (SVM)
+
+Example Output:
